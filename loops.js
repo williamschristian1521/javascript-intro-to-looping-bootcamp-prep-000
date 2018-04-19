@@ -11,4 +11,5 @@ function forLoop(array)
       array += 'I am 1 strange loop.'
     }
   }
+  return array
 }
