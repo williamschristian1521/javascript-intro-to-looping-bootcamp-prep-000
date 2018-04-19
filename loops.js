@@ -28,11 +28,11 @@ function whileLoop(number)
   return 'done'
 }
 
-function doWhile(array)
+function doWhileLoop(array)
 {
   do 
   {
     array.pop()
   }
-  while (array.length > 0 && maybeTrue())
+  while (array.length > 0 && maybeTrue());
 }
