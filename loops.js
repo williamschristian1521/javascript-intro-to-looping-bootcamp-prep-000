@@ -32,7 +32,7 @@ function doWhile(array)
 {
   do 
   {
-    
+    array.pop()
   }
   while (array.length > 1 && maybeTrue())
 }
