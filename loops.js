@@ -34,5 +34,5 @@ function doWhile(array)
   {
     array.pop()
   }
-  while (array.length > 1 && maybeTrue())
+  while (array.length > 0 && maybeTrue())
 }
