@@ -4,7 +4,7 @@ function forLoop(array)
   {
     if (i !== 1)
     {
-      array += 'I am ${i} strange loops.'
+      array += `'I am ${i} strange loops.'`
     }
     else
     {
